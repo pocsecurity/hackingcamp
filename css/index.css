@@ -1,0 +1,43 @@
+/*
+    Author: Jerry
+    Last Update: 24. 08. 28.
+*/
+
+.hcamp-history-btn-container {
+    max-width: 993px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+/* 지난해킹캠프 */
+.hcamp-history-content-container h1,
+.hcamp-history-content-container h2 {
+    font-family: Arial, sans-serif;
+    text-align: left;
+    font-weight: bold;
+    letter-spacing: 0;
+    color: #555;
+}
+.hcamp-history-content-container h1 {font-size: 21px;}
+.hcamp-history-content-container h2 {font-size: 16px;}
+.hcamp-history-content-container ul {padding:0;}
+.hcamp-history-content-container li {list-style: none;}
+.hcamp-history-content-container ul.speaker li {padding-bottom: 5px;}
+.hcamp-history-content-container ul.sponsor li {padding-bottom: 20px;}
+.hcamp-history-content-container ul.sponsor li p {font-size: 12px;}
+.hcamp-history-btn-container button:not(.collapsed) {
+    background-color: #ebebeb;
+    border-color: #adadad;
+}
+
+
+/* footer 아이콘 */
+.social-link a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
