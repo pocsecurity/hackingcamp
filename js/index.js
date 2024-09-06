@@ -17,4 +17,14 @@ function generate_history_btns() {
         }
         $('.hcamp-history-btn-container').append(btn_code);
     }
+    // 모두 닫기 버튼
+    let $close_all_btn = $(`<button class="btn btn-default collapsed"><i class="fa-solid fa-rotate-left"></i></button>`);
+    $close_all_btn.on('click', function() {
+        let $opened = $('div.in')
+        $opened.removeClass('in');
+        $opened.addClass('collapse');
+
+        $('.hcamp-history-btn-container .btn:not(.collapsed)').addClass('collapsed')
+    })
+    $('.hcamp-history-btn-container').append($close_all_btn);
 }
