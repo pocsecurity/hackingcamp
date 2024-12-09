@@ -1,0 +1,8 @@
+header .notice-container .notice {
+    margin-bottom: 30px;
+}
+
+header .notice-container .notice .notice-head {
+    font-weight: bold;
+    color: #82b6ea;
+}
