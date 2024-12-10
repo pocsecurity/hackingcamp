@@ -3,7 +3,6 @@ $(function() {
     $.getJSON('./data/notice.json', function(resp) {
         resp.forEach((e, i) => {
             if (e.view) {
-                console.log(e)
                 const $notice = $(`
                 <div class="notice">
                     <div class="notice-head">${e.date}</div>

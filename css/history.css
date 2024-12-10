@@ -1,0 +1,49 @@
+.history-btn-container {
+    max-width: 993px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 40px;
+}
+
+/* 지난해킹캠프 */
+.history-container .history h1,
+.history-container .history h2 {
+    font-family: Arial, sans-serif;
+    text-align: left;
+    font-weight: bold;
+    letter-spacing: 0;
+    color: #555;
+}
+.history-container .history h1 {font-size: 21px;}
+.history-container .history h2 {font-size: 16px;}
+.history-container .history ul {padding:0;}
+.history-container .history li {list-style: none;}
+
+
+.history-container .history .history-schedule li {padding-bottom: 5px;}
+.history-container .history .history-schedule li {
+    font-size: 11pt;
+    margin-bottom: 10px;
+}
+.history-container .history .history-schedule li span {
+    font-size: 9pt;
+    margin-left: 1pt;
+}
+
+.history-container .history .history-sponsor li {
+    margin-bottom: 30px;
+}
+.history-container .history .history-sponsor li p {font-size: 12px;}
+.history-container .history .history-sponsor img {
+    max-height: 50px;
+}
+.history-container .history .history-sponsor img {
+    max-width: 180px;
+}
+
+.history-btn-container button:not(.collapsed) {
+    background-color: #ebebeb;
+    border-color: #adadad;
+}
