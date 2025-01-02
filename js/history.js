@@ -16,11 +16,14 @@ $(function() {
                         <ul>
                             ${
                                 e.schedule.map((s, i) => {
-                                    return `
-                                    <li>
-                                        ${(s.author)?`<span>${s.author}</span><br />`:''}
-                                        ${(s.file)?`<a href="${s.file}">${s.title}</a>`:s.title}
-                                    </li>`
+                                    let code = (s.author)?`<span>${s.author}</span><br />`:'';
+                                    if (s.file) {
+                                        file_url = `slides/${e.no}/${s.file}`;
+                                        code += `<a href="${file_url}">${s.title}</a>`
+                                    } else {
+                                        code += s.title;
+                                    }
+                                    return `<li>${code}</li>`;
                                 }).join('')
                             }
                         </ul>

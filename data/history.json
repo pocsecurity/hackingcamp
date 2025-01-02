@@ -1804,7 +1804,7 @@
                 "type": "speaker",
                 "title": "0.1%의 승부, 선거 개표방송 파헤치기",
                 "author": "이태희",
-                "file": null
+                "file": "선거 개표방송시스템 분석.pdf"
             },
             {
                 "type": "speaker",
@@ -1831,7 +1831,7 @@
                 "type": "speaker",
                 "title": "일반고에서 해킹대회에 나가기까지",
                 "author": "최장우",
-                "file": null
+                "file": "일반고에서 해킹대회에 나가기까지.pdf"
             },
             {
                 "type": "speaker",
@@ -1860,7 +1860,7 @@
             {
                 "type": "speaker",
                 "title": "최신 glibc 속 hook 없이 살아남기 with IO_FILE",
-                "author": null,
+                "author": "이성권",
                 "file": null
             },
             {
@@ -1879,7 +1879,7 @@
                 "type": "speaker",
                 "title": "Django 1-day 분석",
                 "author": "윤석찬",
-                "file": null
+                "file": "Django 1-day Analysis.pdf"
             },
             {
                 "type": "speaker",
@@ -2073,7 +2073,7 @@
                 "type": "speaker",
                 "title": "개발자들이 자주 하는 보안 실수",
                 "author": "안수현, 채서연",
-                "file": null
+                "file": "개발자들이 자주 하는 보안 실수.pdf"
             },
             {
                 "type": "speaker",
@@ -2091,7 +2091,7 @@
                 "type": "speaker",
                 "title": "윈도우 소프트웨어 버그헌팅",
                 "author": "김민서, 강찬송",
-                "file": null
+                "file": "윈도우 소프트웨어 버그헌팅.pdf"
             },
             {
                 "type": "speaker",
@@ -2179,31 +2179,31 @@
                 "type": "speaker",
                 "title": "바이너리 분석 시작하기",
                 "author": "표상억",
-                "file": "/slides/29/바이너리 분석 시작하기.pdf"
+                "file": "바이너리 분석 시작하기.pdf"
             },
             {
                 "type": "speaker",
                 "title": "별 찍기도 못하던 내가 버그바운티를 하게 되었다?",
                 "author": "명서아",
-                "file": "slides/29/별 찍기도 못하던 내가 버그바운티를 하게 되었다.pdf"
+                "file": "별 찍기도 못하던 내가 버그바운티를 하게 되었다.pdf"
             },
             {
                 "type": "speaker",
                 "title": "입문자가 바라보는 취약점 분석",
                 "author": "성민균 & 박도영",
-                "file": "slides/29/입문자가 바라보는 취약점 분석.pdf"
+                "file": "입문자가 바라보는 취약점 분석.pdf"
             },
             {
                 "type": "speaker",
                 "title": "Run Application as Root for Android",
                 "author": "김정진",
-                "file": "slides/29/Run Application as Root for Android.pdf"
+                "file": "Run Application as Root for Android.pdf"
             },
             {
                 "type": "speaker",
                 "title": "Windows Kernel Exploit Basic",
                 "author": "권율",
-                "file": "slides/29/Windows Kernel Exploit Basic.pdf"
+                "file": "Windows Kernel Exploit Basic.pdf"
             }
         ],
         "sponsor": [
