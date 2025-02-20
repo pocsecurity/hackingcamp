@@ -203,6 +203,7 @@ color: #fff;
 .main-nav li a{
 	display:inline-block;
 	color:#222222;
+	min-width: 80px;
 	text-transform:uppercase;
 	font-family: 'Montserrat', sans-serif;
 	text-decoration: none;
@@ -497,6 +498,12 @@ border: 2px solid #fff;
 }
 .main-section.team h6{
 	margin-bottom:40px;
+}
+
+
+/* faq */
+#faq {
+	background-color:#ececec;
 }
 
 

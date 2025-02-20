@@ -17,33 +17,81 @@
     color: #555;
 }
 .history-container .history h1 {font-size: 21px;}
-.history-container .history h2 {font-size: 16px;}
+.history-container .history h2 {font-size: 18px;}
 .history-container .history ul {padding:0;}
 .history-container .history li {list-style: none;}
 
+.history-section {
+    margin-bottom: 30px;
+}
 
-.history-container .history .history-schedule li {padding-bottom: 5px;}
-.history-container .history .history-schedule li {
+
+/* 발표, 수상자 영역을 좌/우로 나눔 */
+.history-container .history .history-body1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.history-container .history .history-body1 > div {
+    width: 48%;
+}
+@media (max-width: 768px) {
+    .history-container .history .history-body1 {
+        flex-direction: column;
+    }
+    .history-container .history .history-body1 > div {
+        width: 100%;
+    }
+}
+
+/* history-section 일정 파트 */
+.history-container .history .history-section.schedule li {padding-bottom: 5px;}
+.history-container .history .history-section.schedule li {
     font-size: 11pt;
     margin-bottom: 10px;
 }
-.history-container .history .history-schedule li span {
+.history-container .history .history-section.schedule li span {
     font-size: 9pt;
     margin-left: 1pt;
 }
 
-.history-container .history .history-sponsor li {
+/* history-section 수상자 파트 */
+.history-container .history .history-section.award li {
+    margin-bottom: 15px;
+}
+.history-container .history .history-section.award b {
+    font-size: 10pt;
+}
+.history-container .history .history-section.award .name {
+    font-size: 12pt;
+    font-weight: normal;
+}
+.history-container .history .history-section.award span {
+    font-size: 8pt;
+    font-weight: lighter;
+}
+
+/* history-section 후원사 파트 */
+.history-container .history .history-section.sponsor li {
     margin-bottom: 30px;
 }
-.history-container .history .history-sponsor li p {font-size: 12px;}
-.history-container .history .history-sponsor img {
+.history-container .history .history-section.sponsor li p {font-size: 12px;}
+.history-container .history .history-section.sponsor img {
     max-height: 50px;
 }
-.history-container .history .history-sponsor img {
+.history-container .history .history-section.sponsor img {
     max-width: 180px;
 }
+
+
+
+
+
+
+
 
 .history-btn-container button:not(.collapsed) {
     background-color: #ebebeb;
     border-color: #adadad;
 }
+

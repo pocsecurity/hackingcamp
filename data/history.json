@@ -2238,6 +2238,121 @@
                 "description": "최고의 오펜시브 시큐리티 연구인력으로 구성된 78ResearchLab은 기업, 국가 주요 기관 및 연구소에 보안 취약점 분석 서비스를 제공하고 모의해킹, 교육 등 종합적인 IT 보안 서비스를 제공하고 있습니다."
             }
         ]
+    },
+    {
+        "no": 30,
+        "season": "동계",
+        "date": "2025년 2월 15일(토) ~ 16일(일)",
+        "venue": "영등포 하이서울유스호스텔",
+        "schedule": [
+            {
+                "type": "speaker",
+                "title": "Security Analysis of loT Hidden(SPY) Camera",
+                "author": "유선동",
+                "file": null
+            },
+            {
+                "type": "speaker",
+                "title": "AI 시대의 악성코드 탐지: YARA 룰 자동화",
+                "author": "정다은",
+                "file": null
+            },
+            {
+                "type": "speaker",
+                "title": "레드팀 정찰의 핵심",
+                "author": "김주원",
+                "file": "김주원_레드팀 정찰의 핵심.pdf"
+            },
+            {
+                "type": "speaker",
+                "title": "버그 헌팅 맨땅에 헤딩",
+                "author": "정준수",
+                "file": "정준수_버그헌팅 맨땅에 헤딩.pptx"
+            },
+            {
+                "type": "speaker",
+                "title": "웹 해킹의 첫 발걸음",
+                "author": "박기범",
+                "file": "박기범_웹 해킹의 한걸음.pdf"
+            },
+            {
+                "type": "speaker",
+                "title": "해외 버그바운티 플랫폼 도전기",
+                "author": "양윤모",
+                "file": "양윤모_해외 버그바운티 플랫폼 도전기.pptx"
+            },
+            {
+                "type": "speaker",
+                "title": "맛소금 해커의 평--화로운 해킹 USB 제작記(기)",
+                "author": "정재완",
+                "file": "정재완_맛소금 해커의 평화로운 해킹 USB 제작기.pptx"
+            },
+            {
+                "type": "speaker",
+                "title": "Web3 Basic & Exploit Tech",
+                "author": "박도연",
+                "file": "박도연_Web3 Basic & Exploit Tech.pptx"
+            },
+            {
+                "type": "speaker",
+                "title": "Google VRP kernelCTF",
+                "author": "김현우",
+                "file": null
+            }
+        ],
+        "awards": [
+            {
+                "type": "Best Hacker",
+                "affiliation": "선린인터넷고등학교",
+                "name": "가O혁"
+            },
+            {
+                "type": "Sincere Hacker",
+                "affiliation": "한국디지털미디어고등학교",
+                "name": "박O완"
+            },
+            {
+                "type": "Sincere Hacker",
+                "affiliation": "서울여자대학교",
+                "name": "이O은"
+            },
+            {
+                "type": "Sincere Hacker",
+                "affiliation": "DB Inc.",
+                "name": "장O안"
+            },
+            {
+                "type": "CTF Winner",
+                "affiliation": "팀 아웃사이더",
+                "name": "가O혁, 고O총, 김O빈, 박O민, 양O모, 윤O훈"
+            }
+        ],
+        "sponsor": [
+            {
+                "name": "Ruben Boonen",
+                "logo_link": "/img/sponsor/ruben.png",
+                "site": "https://x.com/fuzzySec/",
+                "description": "Ruben Boonen (@FuzzySec)은 IBM 소속 연구원으로, 세계 각국의 보안 컨퍼런스에서 발표하며 보안 업계에 큰 영향력을 미치고 있습니다. 그는 Valentina Palmiotti (@Chompie1337)와 함께 30회 해킹캠프의 CTF 문제 출제에도 도움을 주었습니다."
+            },
+            {
+                "name": "하임시큐리티",
+                "logo_link": "/img/sponsor/hayyim.png",
+                "site": "https://hayyimlab.oopy.io/",
+                "description": "오펜시브 최중요 연구 과제 수행 및 해킹 트렌드를 선도하는 기업입니다. 학생들이 실제 보안 연구 경험을 쌓을 수 있도록 장학금 및 연구 지원 제도를 운영하고 있습니다."
+            },
+            {
+                "name": "파이오링크",
+                "logo_link": "/img/sponsor/piolink.png",
+                "site": "https://www.piolink.com/kr/",
+                "description": "파이오링크는 업계 최고의 애플리케이션 가용성, 성능, 보안을 제공하고, 쉬운 관리를 위한 네트워크 및 보안 제품 개발에 주력하고 있습니다. 또한 차별화된 보안관제 서비스와 보안컨설팅 그리고 보안관리 솔루션을 기반으로 전문화된 정보보호 서비스를 제공하고 있습니다."
+            },
+            {
+                "name": "키다리보안아저씨",
+                "logo_link": "/img/sponsor/kiboa.png",
+                "site": "https://www.facebook.com/secleg",
+                "description": "키다리 보안 아저씨는 비수도권 지역의 정보 보안 교육 기회를 확대하여 정보 불균형을 해소하는 것을 목표로, 행사 및 멘토링 등 다양한 형태의 프로그램을 운영하여 보안 업계에 긍정적인 변화를 만들어가고 있습니다."
+            }
+        ]
     }
 ]
     

@@ -6,3 +6,65 @@
     align-content: center;
     align-items: center;
 }
+
+/*********** header : 배경 이미지 추가 및 블러 효과 */
+.header {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url('/img/history/30/CTF2.s.jpeg') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* 블러 효과 적용 */
+.header::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(5px);  /* 블러 효과 */
+    background: rgba(0, 0, 0, 0.4); /* 어두운 오버레이 */
+    top: 0;
+    left: 0;
+}
+
+/* 컨텐츠가 블러 영향을 받지 않도록 조정 */
+.header .container {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    color: white;
+}
+
+#about h6 {
+    line-height: 2.5rem;
+}
+
+
+/* 해킹캠프 안내: 준비중입니다 세팅 */
+#info .preparing {
+    position: relative;
+}
+#info .preparing .section {
+    filter:blur(4px);
+}
+#info .preparing::before {
+    content: "준비중입니다";
+    font-size: 7rem;
+    font-weight: bolder;
+    color: #51515182;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+}
+@media (max-width: 768px) {
+    #info .preparing::before {
+        font-size: 3rem;
+        font-weight: 900;
+        top: 20%;
+    }
+}
