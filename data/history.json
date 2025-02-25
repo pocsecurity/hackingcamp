@@ -2106,6 +2106,33 @@
                 "file": null
             }
         ],
+        "awards": [
+            {
+                "type": "Best Hacker",
+                "affiliation": "아주대학교",
+                "name": "조O국"
+            },
+            {
+                "type": "Sincere Hacker",
+                "affiliation": "고려대학교",
+                "name": "강O중"
+            },
+            {
+                "type": "Sincere Hacker",
+                "affiliation": "서울대학교",
+                "name": "김O진"
+            },
+            {
+                "type": "Sincere Hacker",
+                "affiliation": "가천대학교",
+                "name": "최O희"
+            },
+            {
+                "type": "CTF Winner",
+                "affiliation": "팀 E4I4",
+                "name": "백O승, 배O현, 김O모, 정O배, 이O재, 이O재, 서O빈, 최O희"
+            }
+        ],
         "sponsor": [
             {
                 "name": "엔키",
@@ -2204,6 +2231,33 @@
                 "title": "Windows Kernel Exploit Basic",
                 "author": "권율",
                 "file": "Windows Kernel Exploit Basic.pdf"
+            }
+        ],
+        "awards": [
+            {
+                "type": "Best Hacker",
+                "affiliation": "대덕소프트웨어마이스터고등학교",
+                "name": "고O총"
+            },
+            {
+                "type": "Sincere Hacker",
+                "affiliation": "명지전문대학교",
+                "name": "김O겸"
+            },
+            {
+                "type": "Sincere Hacker",
+                "affiliation": "화이트햇 스쿨",
+                "name": "박O영"
+            },
+            {
+                "type": "Sincere Hacker",
+                "affiliation": "대덕소프트웨어마이스터고등학교",
+                "name": "이O성"
+            },
+            {
+                "type": "CTF Winner",
+                "affiliation": "팀 고민중독",
+                "name": "강O찬, 고O총, 김O준, 남O석, 이O규, 장O훈, 차O비"
             }
         ],
         "sponsor": [
